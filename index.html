@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>曾「好」學</title>
+        <!-- 字型圖示 Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- 字體 Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800" rel="stylesheet">
+    </head>
+
+
+
+    <body id="page-top">
+        <!-- Navigation 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" >
+            <div class="container px-4 px-lg-5">
+                <!-- 左上標題 -->
+                <a class="navbar-brand" href="index.html">🗺️曾「好」學</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">課程介紹</a></li>
+                        <li class="nav-item"><a class="nav-link" href="class.html">任務地圖</a></li>
+                        <li class="nav-item"><a class="nav-link" href="qa.html">QA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- 網頁開頭標題 -->
+        <header class="mastheadindex">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-between">
+                <!-- <div class="d-flex justify-content-center"> -->
+                  <!-- 左側補充區塊 -->
+                    <div class="text-start">
+                        <!-- 小標 -->
+                        <h4 class="mb-1" style="font-size: 20px;color: #f7d6a3;">行銷傳道師</h4>
+                        <!-- 主標 -->
+                        <h1 class="fw-bold" style="color: #d9aa64;">曾光華</h1>
+                        <!-- 副標 -->
+                        <h4 class="mb-3" style="font-size: 35px;color: #f7d6a3;">思考轉職冒險</h4>
+                        <!-- 補充說明 -->
+                        <h5 class="mb-4" style="font-size: 20px;">破關不是為了通關，而是為了變強</h5>
+                        <!-- 行動按鈕 -->
+                        <button class="custom-btn btn-11">立即挑戰 🏃‍♂️<div class="dot"></div></button>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </header>
+
+
+        <!-- 首頁分段連結 -->
+        <div class="footer-nav text-center">
+            <div class="col-md-24" style="background: rgba(19, 19, 19, 0.822);
+                                          font-family:Comic Sans MS, Comic Sans, cursive;
+                                          font-size: 20px;
+                                          letter-spacing:2px;">
+            </div>
+        </div>
+
+<!-- 內文 -->
+    <!-- 簡介0:老師介紹 -->
+    <section class="case-study" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <h2 class="title">老師簡介</h2>
+      </div>
+      <div class="teacher">
+          <div class="teacher-card-container">
+              <div class="teacher-profile-layout">
+                  <div class="teacher-profile-image">
+                      <div class="teacher-image-container">
+                          <img src="./img/zgh1.png" alt="個人照片">
+                      </div>
+                  </div>
+                  
+                  <div class="teacher-profile-info">
+                      <div class="teacher-title">中正大學行銷所教授</div>
+                      
+                      <h1 class="teacher-name">曾光華</h1>
+                      
+                      <div class="teacher-sections-wrapper">
+                        <div class="teacher-section">
+                          <div class="teacher-section-title">學歷：</div>
+                          <div class="teacher-section-content">
+                            <div>美國密蘇里大學行銷碩士</div>
+                            <div>美國密蘇里大學行銷博士</div>
+                            <div>國立政治大學企業管理學學士</div>
+                          </div>
+                        </div>
+
+                        <div class="teacher-section">
+                          <div class="teacher-section-title">經歷：</div>
+                          <div class="teacher-section-content">
+                            <div>國內暢銷行銷教科書作者</div>
+                            <div>多家企業與政府機構諮詢顧問</div>
+                            <div>豐富的學術背景與實務經驗</div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+       
+    </section>
+
+
+    <!-- 簡介1:痛點 -->
+    <section class="case-study" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <h2 class="title">上大學的你，是否也常常覺得⋯⋯</h2>
+      </div>
+      <!-- 痛點 -->
+      <div class="card-container">
+        <div class="card" onclick="showModal(0)">
+          <img src="img/111.png" style="width:100%;margin-bottom: 20px;">
+          <div class="card-text"><strong>不只有課本，生活中的問題沒有標準答案，該如何思考？</strong></div>
+        </div>
+        <div class="card" onclick="showModal(1)">
+          <img src="img/222.png" style="width:100%;margin-bottom: 20px;">
+          <div class="card-text"><strong>報告被說不嚴謹、沒邏輯，如何一針見血表達重點？</strong></div>
+        </div>
+        <div class="card" onclick="showModal(2)">
+          <img src="img/333.png" style="width:100%;margin-bottom: 20px;">
+          <div class="card-text"><strong>找不到變數關聯如何快速釐清各種連結？</strong></div>
+        </div>
+      </div>
+      <!-- 痛點 - END  -->
+    </section>
+
+    <!-- 簡介2:流程 -->
+    <section class="case-study" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <h2 class="title">
+          當問題不只存在教室中，<br>更需要培養帶得走的<span style="font-size: 1.5em; font-weight: bold;color: #ff9393;">問題解決力</span>
+        </h2>
+      </div>
+      <!-- 流程 -->
+       <div class="case22" style="margin-top: 30px;">
+      <!-- Process flow steps - 四步驟流程圖 -->
+      <!-- 四欄對齊包裝 -->
+        <div class="process-wrapper fade-in">
+
+          <!-- 流程步驟 -->
+          <div class="process-container">
+            <div class="process-step step1">發覺痛點</div>
+            <div class="process-step step2">定義問題</div>
+            <div class="process-step step3">思考解方</div>
+            <div class="process-step step4">精準執行</div>
+          </div>
+
+          <!-- 對應說明 -->
+          <div class="description-container">
+            <div class="description-column">
+              <div class="description-title">身邊有哪些「待加強」</div>
+              <div class="description-item">哪些人有同樣困擾</div>
+            </div>
+            <div class="description-column">
+              <div class="description-title">讓問題「看得見」</div>
+              <div class="description-item">一次解決一件事</div>
+            </div>
+            <div class="description-column">
+              <div class="description-title">是否有效解決問題</div>
+              <div class="description-item">會有什麼後續影響</div>
+            </div>
+            <div class="description-column">
+              <div class="description-title">如何提升效率</div>
+              <div class="description-item">如何說服他人協助</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- 流程 - END  -->
+    </section>
+<!-- ************************************************************************************* -->
+    <!-- 簡介3:課程介紹 -->
+    <section class="case-study-2" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <h2 class="title">五道關卡，解鎖五種關鍵思考力</h2>
+      </div>
+       <div class="class-case-2" style="margin-top: 30px;">
+    <!-- 主容器開始 -->
+            <div class="class-game-container">
+                <!-- 裝飾性背景元素 -->
+                <div class="class-decoration">⚡</div>
+                <div class="class-decoration">🎯</div>
+                <div class="class-decoration">💡</div>
+
+                <!-- 遊戲關卡路徑開始 -->
+                <div class="class-game-path">
+                    <!-- 第一關 -->
+                    <div class="class-level">
+                        <div class="class-level-left">
+                            <div class="class-level-icon">1</div>
+                            <div class="class-level-content">
+                                <h3 class="class-level-title">Level 1 | 問題是什麼？</h3>
+                                <p class="class-level-description">思考從這裡開始 - 學會識別和定義真正的問題，為後續的邏輯思維打下堅實基礎。</p>
+                            </div>
+                        </div>
+                        <div class="class-level-details">
+                            <div class="details-header">
+                                <span class="details-emoji">🧩</span>
+                                <h4 class="details-title">關卡1｜問題是什麼？思考從這開始</h4>
+                            </div>
+                            <div class="core-content">
+                                <div class="core-label">核心內容：</div>
+                                <div class="core-text">面對問題、認識問題、建立思考態度</div>
+                            </div>
+                            <div class="skills-gained">
+                                <div class="skills-label">通關後可取得技能：</div>
+                                <div class="skills-text">問題意識、問題感知力</div>
+                            </div>
+                            <div class="lesson-list">
+                                <div class="lesson-item">
+                                    <div class="lesson-text">學會面對問題：大學生活的第一場任務</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">面對問題的第一步：別只聽懂字，還要懂意思</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">當你不會解問題，是因為你沒看見它的本質</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="class-path-line"></div>
+                    </div>
+
+                    <!-- 第二關 -->
+                    <div class="class-level">
+                        <div class="class-level-left">
+                            <div class="class-level-icon">2</div>
+                            <div class="class-level-content">
+                                <h3 class="class-level-title">Level 2 | 邏輯起始點</h3>
+                                <p class="class-level-description">定義 × 脈絡 × 理性 - 建立清晰的邏輯框架，掌握分析問題的核心方法。</p>
+                            </div>
+                        </div>
+                        <div class="class-level-details">
+                            <div class="details-header">
+                                <span class="details-emoji">🧩</span>
+                                <h4 class="details-title">關卡2｜邏輯出發點：定義 × 脈絡 × 理性</h4>
+                            </div>
+                            <div class="core-content">
+                                <div class="core-label">核心內容：</div>
+                                <div class="core-text">理性是什麼？為何要建立脈絡？定義的爭議點在哪？</div>
+                            </div>
+                            <div class="skills-gained">
+                                <div class="skills-label">通關後可取得技能：</div>
+                                <div class="skills-text">脈絡理解力、定義思維</div>
+                            </div>
+                            <div class="lesson-list">
+                                <div class="lesson-item">
+                                    <div class="lesson-text">什麼才算理性思考？你的第一道腦內試煉</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">理解「脈絡」：從片段到整體的思維升級</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">定義爭奪戰：為何爭論總是從名詞開始？</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="class-path-line"></div>
+                    </div>
+
+                    <!-- 第三關 -->
+                    <div class="class-level">
+                        <div class="class-level-left">
+                            <div class="class-level-icon">3</div>
+                            <div class="class-level-content">
+                                <h3 class="class-level-title">Level 3 | 談話偵探社</h3>
+                                <p class="class-level-description">數字與指標的陷阱 - 學習識別統計謬誤，避免被數據迷惑，培養批判性思維。</p>
+                            </div>
+                        </div>
+                        <div class="class-level-details">
+                            <div class="details-header">
+                                <span class="details-emoji">🧩</span>
+                                <h4 class="details-title">關卡3｜話術偵探社：數字與指標的陷阱</h4>
+                            </div>
+                            <div class="core-content">
+                                <div class="core-label">核心內容：</div>
+                                <div class="core-text">平均、指標常被誤用，如何拆解潛藏迷思？</div>
+                            </div>
+                            <div class="skills-gained">
+                                <div class="skills-label">通關後可取得技能：</div>
+                                <div class="skills-text">數據判斷力、語言識讀力</div>
+                            </div>
+                            <div class="lesson-list">
+                                <div class="lesson-item">
+                                    <div class="lesson-text">平均的陷阱：這句話真的代表全部嗎？</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">指標的迷霧：被數字說服前先想一步</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="class-path-line"></div>
+                    </div>
+
+                    <!-- 第四關 -->
+                    <div class="class-level">
+                        <div class="class-level-left">
+                            <div class="class-level-icon">4</div>
+                            <div class="class-level-content">
+                                <h3 class="class-level-title">Level 4 | 邏輯攻防戰</h3>
+                                <p class="class-level-description">因果 × 關聯 × 變數 - 深入理解邏輯關係，掌握論證的攻防技巧。</p>
+                            </div>
+                        </div>
+                        <div class="class-level-details">
+                            <div class="details-header">
+                                <span class="details-emoji">🧩</span>
+                                <h4 class="details-title">關卡4｜邏輯攻防戰：因果 × 關聯 × 變數</h4>
+                            </div>
+                            <div class="core-content">
+                                <div class="core-label">核心內容：</div>
+                                <div class="core-text">區辨因果與關聯、掌握中介與調節變數的概念</div>
+                            </div>
+                            <div class="skills-gained">
+                                <div class="skills-label">通關後可取得技能：</div>
+                                <div class="skills-text">邏輯推理力、變數理解力</div>
+                            </div>
+                            <div class="lesson-list">
+                                <div class="lesson-item">
+                                    <div class="lesson-text">影響關係怎麼判？搞懂邏輯前別急著下結論</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">因果 ≠ 關聯：別被線型圖蒙蔽了邏輯</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">中介變數解密：你忽略的關鍵角色</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">調節變數登場：當結果不是線性的時候怎麼辦？</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="class-path-line"></div>
+                    </div>
+
+                    <!-- 第五關 -->
+                    <div class="class-level">
+                        <div class="class-level-left">
+                            <div class="class-level-icon">5</div>
+                            <div class="class-level-content">
+                                <h3 class="class-level-title">Level 5 | 觀點戰場</h3>
+                                <p class="class-level-description">評論 × 結構 × 表達 - 學會構建有力的論點，提升說服力和表達技巧。</p>
+                            </div>
+                        </div>
+                        <div class="class-level-details">
+                            <div class="details-header">
+                                <span class="details-emoji">🧩</span>
+                                <h4 class="details-title">關卡5｜觀點實戰場：評論 × 架構 × 表達</h4>
+                            </div>
+                            <div class="core-content">
+                                <div class="core-label">核心內容：</div>
+                                <div class="core-text">觀點該如何建立？怎麼避免謬誤？怎樣表達有力？</div>
+                            </div>
+                            <div class="skills-gained">
+                                <div class="skills-label">通關後可取得技能：</div>
+                                <div class="skills-text">評論力、表達結構力、批判思考力</div>
+                            </div>
+                            <div class="lesson-list">
+                                <div class="lesson-item">
+                                    <div class="lesson-text">蘋果橘子怎麼比？當比喻成為邏輯陷阱</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">特例使用術：別讓個案代表全局</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">評論不是說「我覺得」，而是提出有根據的立場</div>
+                                </div>
+                                <div class="lesson-item">
+                                    <div class="lesson-text">什麼叫有架構的回答？讓觀點站得住腳</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 通關出口 - 學習成果展示 -->
+                <div class="class-exit-stage">
+                    <h2 class="class-exit-title" style="color: rgb(106, 0, 0);">🏆通關成就解鎖</h2>
+                    <p class="class-exit-description">恭喜完成所有關卡！<br>
+                      系統將發放<span style="font-size: 1.5em; font-weight: bold;color: #fc5e5e;">「通關邀請函」</span>，<br>
+                      邀請您參與課程每半年舉辦一次的<span style="font-size: 1.5em; font-weight: bold;color: #fc5e5e;">實體交流會</span>~
+                    </p>
+                </div>
+            </div>
+        </div>
+      <!-- 課程介紹 - END  -->
+    </section>
+
+
+
+
+<!-- ************************************************************************************* -->
+    
+    <!-- 簡介4:知識精華 -->
+    <section class="case-study" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <h2 class="title">一路升級打怪的祕技來源</h2>
+      </div>
+      <!-- 知識精華 -->
+       <div class="case44" style="margin-top: 30px;">
+        <div class="case44-container">
+
+          <!-- 書本圖示裝飾 -->
+          <!-- <div class="case44-note-icon">📖</div> -->
+
+          <!-- 頁首標題 -->
+          <div class="case44-header">老師的知識精華來自於....</div>
+
+          <!-- 三大主區塊 -->
+          <div class="case44-main-sections">
+
+            <!-- 區塊一：適合對象 -->
+            <div class="case44-section">
+              <div class="case44-section-title">適合對象</div>
+              <div class="case44-item"><span class="icon">🧠</span>想讓顧客了解如何做決定</div>
+              <div class="case44-item"><span class="icon">💬</span>想提升溝通與提問品質</div>
+              <div class="case44-item"><span class="icon">🎯</span>想訓練創意思考維度</div>
+              <div class="case44-item"><span class="icon">📝</span>想寫出獨特風格文案</div>
+            </div>
+
+            <!-- 區塊二：精選書籍 -->
+            <div class="case44-section">
+              <div class="case44-section-title">精選書籍</div>
+              <div class="case44-item"><span class="case44-book-icon"></span>《思考，快與慢》 - Daniel Kahneman</div>
+              <div class="case44-item"><span class="case44-book-icon"></span>《說話的品格》 - 木下信一</div>
+              <div class="case44-item"><span class="case44-book-icon"></span>《精準提問》 - Warren Berger</div>
+              <div class="case44-item"><span class="case44-book-icon"></span>《大家都在寫的文案，我不要！》 - 野口柚子</div>
+            </div>
+
+            <!-- 區塊三：核心概念 -->
+            <div class="case44-section">
+              <div class="case44-section-title">核心概念</div>
+              <div class="case44-item"><span class="case44-idea-icon"></span>人類有兩套思考系統：<br>快速直覺 vs. 慢速理性</div>
+              <div class="case44-item"><span class="case44-idea-icon"></span>好的說話方式來自理解與觀察，而非話術堆砌</div>
+              <div class="case44-item"><span class="case44-idea-icon"></span>好問題 > 好答案<br>提問是創造的起點</div>
+              <div class="case44-item"><span class="case44-idea-icon"></span>文案不是句子，<br>是品牌的個性感與溫度</div>
+            </div>
+
+          </div>
+
+          <!-- 左下角時鐘圖示 -->
+          <!-- <div class="case44-clock-icon">⏰</div> -->
+
+        </div>
+      </div>
+      <!-- 知識精華 - END  -->
+    </section>
+
+        <!-- 簡介5:定價 -->
+    <section class="case-study" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <h2 class="title">報名通道開啟！<br>選擇你的冒險入場券</h2>
+      </div>
+      <!-- 定價 -->
+       <div class="price" style="margin-top: 30px;">
+
+          <div class="price-container">
+            <div class="pricing-grid">
+              <!-- 早鳥優惠 -->
+              <div class="pricing-card">
+                <h2 class="price-card-title">早鳥優惠</h2>
+                <div class="price-container">
+                  <div class="original-price">原價 NT$2,980</div>
+                  <div class="current-price">NT$2,280</div>
+                </div>
+                <div class="card-description">
+                  挑戰者先登錄，搶先解鎖限時Buff
+                </div>
+                <button class="cta-button">立即報名</button>
+              </div>
+
+              <!-- 學生專屬優惠 -->
+              <div class="pricing-card">
+                <h2 class="price-card-title">學生專屬優惠</h2>
+                <div class="price-container">
+                  <div class="original-price">原價 NT$2,980</div>
+                  <div class="current-price">NT$1,980</div>
+                </div>
+                <div class="card-description">
+                  學院派冒險者的進修支援包<br>
+                  在知識與學費之間找到最強平衡<br>
+                  預約一場真正「帶得走」的能力升級<br>
+                  ※需提供在校學生證明
+                </div>
+                <button class="cta-button">學生認證</button>
+              </div>
+
+              <!-- 團體優惠 -->
+              <div class="pricing-card">
+                <h2 class="price-card-title">團體優惠</h2>
+                <div class="price-container">
+                  <div class="original-price">原價 NT$2,980</div>
+                  <div class="current-price">NT$1,880</div>
+                  <div class="price-per-person">每人（ 5人以上 ）</div>
+                </div>
+                <div class="card-description">
+                  五人以上即享團報優惠，開啟你們的隊伍挑戰模式！
+                </div>
+                <button class="cta-button">團體報名</button>
+              </div>
+            </div>
+
+            <!-- 暑期先修限定優惠 -->
+            <div class="special-offer">
+              <h3 style="color: black;"><span style="font-size: 1.5em; font-weight: bold;color: #a30707;">暑期挑戰者</span>專屬增益Buff🔥</h3>
+              <div class="price-info">
+                所有方案再享 <span style="font-size: 1.5em; font-weight: bold;color: #941111;"><strong>85折</strong></span> 優惠              </div>
+              <div class="discount-note">
+                ❝ 期間限定｜所有學員再享額外挑戰獎勵價 ❞
+              </div>
+              <button class="cta-button">了解詳情</button>
+            </div>
+
+      </div>
+      <!-- 定價 - END  -->
+    </section>
+    
+    <!-- 簡介6:結尾頁 -->
+    <section class="case-study" style="border-bottom: 20px;padding-bottom: 30px;">
+      <div class="text-center">
+        <!-- <h2 class="title">一路升級打怪的祕技來源</h2> -->
+      </div>
+    <!-- Background decorative elements -->
+      <div class="bg-decoration">
+          <div class="chevron chevron1"></div>
+          <div class="chevron chevron2"></div>
+          <div class="chevron chevron3"></div>
+      </div>
+
+      <div class="container-55">
+          <!-- Left content section -->
+          <div class="content-section">
+              <!-- Main motivational headline -->
+              <h1 class="main-headline fade-in">
+                  成長靠經歷，成功靠思考。
+              </h1>
+              
+              <!-- Subtitle with life philosophy -->
+              <h2 class="subtitle">別只經歷人生，學會用思考力走上新跑道。
+              </h2>
+              
+              <!-- Course search bar -->
+              <div class="search-container fade-in fade-in-delay">
+                  <div class="search-icon"></div>
+                  <input type="text" class="search-bar" value="曾光華老師的思考力課程" readonly>
+              </div>
+              
+              <!-- Course description -->
+              <div class="description fade-in fade-in-delay-2">
+                  <span class="highlight">不是死背知識，而是學會思考！</span><br>
+                  這堂課用有趣又貼近生活的方式教你真正<br><span class="emphasized">「學得會、用得上」</span>。
+              </div>
+          </div>
+          
+          <!-- Right instructor photo section -->
+          <div class="image-section">
+              <div class="instructor-photo fade-in fade-in-delay-2"></div>
+          </div>
+      </div>
+      <!-- 結尾頁 - END  -->
+    </section>
+
+<!-- 內文結束 -->
+
+    <!-- 回最上層 -->
+    <div class="join-team" style="float: right;padding-right: 20px;">
+      <a class="btn btn-default btn-main" href="#" role="button">　TOP　</a>
+    </div>
+<!-- ==================================================================尾頁================================================================= -->
+    <!-- Footer-->
+      <footer class="footer small text-center text-white-50"><div class="container px-4 px-lg-5">
+        <section class="text-center contact-section ">
+          <div class="container px-4 px-lg-5">
+            <h3 class="footer-title">成長靠經歷，成功靠思考。<br><br>別只經歷人生，學會用思考力走上新跑道。</h3>
+            <div class="social d-flex justify-content-center">
+              <a class="mx-2" href="https://www.facebook.com/Dr.marketing.power/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </section>
+        <h2 style="font-size: 20px;color: rgb(87, 87, 87);">行銷傳道士 - 曾光華<br></h2>
+      </footer>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
